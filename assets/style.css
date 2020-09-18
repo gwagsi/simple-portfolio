@@ -1,13 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
 header {
   background-color: #be3944;
   display: flex;
   justify-content: space-between;
   width: 100%;
-position: fixed;
+  position: fixed;
 }
 #navbar ul {
   display: flex;
@@ -35,65 +35,98 @@ header img {
   align-items: center;
 }
 
-#welcome-section h1{
-    text-align: center;
-    font-size: 4em;
-    padding-top: 30vh;
-    color: white;
+#welcome-section h1 {
+  text-align: center;
+  font-size: 4em;
+  padding-top: 30vh;
+  color: white;
 }
-#welcome-section p{
-    text-align: center;
-    font-size: 2em;
-    padding-top: 10px;
-    color: #b93843;
-    font-style: italic;
+#welcome-section p {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 10px;
+  color: #b93843;
+  font-style: italic;
 }
-.works{
-    
-    border-style: solid;
-    border-radius: 2px;
-    width: 33.3vw;
-    max-height: auto;
-    margin-top: 50px;
-    margin-left: 10px;
+.works {
+  border-style: solid;
+  border-radius: 2px;
+  width: 33.3vw;
+  max-height: auto;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.works img {
+  width: 100%;
+}
+.work-title {
+  background-color: #061024;
+  text-align: center;
+  padding-top: 10px;
 
+  height: 20px;
 }
-.works img{
-    width: 100%;
-}
-.work-title{
-    background-color: #061024;
-    text-align: center;
-    padding-top: 10px;
-
-    height: 20px;
-
-}
-.project-head{
-   text-align: center;
- padding-top: 70px;
-   font-size: 40px;
-   text-decoration: underline; 
+.project-head {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 40px;
+  text-decoration: underline;
 }
 
-.project-tile{
+.project-tile {
   display: flex;
   justify-content: space-evenly;
 }
-#projects{
+#projects {
   background-color: #45567d;
   margin-top: 0;
-  margin: 5px;
 }
-.works{
+.works {
   margin: 25px;
 }
-.work-title a{
+.work-title a {
   text-decoration: none;
   color: white;
 }
 
-  .work-title a:hover{
-    text-decoration: none;
-   color: yellow;
+.work-title a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+#footer {
+  height: 100vh;
+  background-color: #303841;
+  text-align: center;
+}
+#footer a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+}
+#footer h2 {
+  padding-top: 100px;
+  font-size: 80px;
+  color: antiquewhite;
+}
+#footer p {
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+  padding: 20px;
+}
+.line {
+  border-radius: 3px;
+  margin-top: 80px;
+  color: #b93843;
+  border-style: solid;
+}
+#footer i {
+  padding-right: 10px;
+  margin-right: 1000px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
   }
+}
