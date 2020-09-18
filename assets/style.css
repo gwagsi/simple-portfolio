@@ -83,6 +83,8 @@ header img {
 }
 .works {
   margin: 25px;
+  height: auto;
+  background-color: #061024;
 }
 .work-title a {
   text-decoration: none;
@@ -126,7 +128,18 @@ header img {
   margin-right: 1000px;
 }
 @media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
+  .project-tile {
+    display: flex;
+  
+    flex-direction: column;
+
+width: 100vw;
+align-items: center;
+  }
+  .works {
+    margin: 25px;
+    background-color: #b93843;
+    width: 80vw;
+    height: auto;
   }
 }
